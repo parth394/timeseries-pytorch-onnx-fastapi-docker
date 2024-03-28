@@ -10,7 +10,7 @@ WORKDIR /opt/TimeSeries/
 
 ENV PYTHONPATH=/opt/TimeSeries
 
-COPY /data/TimeSeries_LSTM.onnx /opt/TimeSeries/model/TimeSeries_LSTM.onnx
-ENV MODEL_PATH=/opt/TimeSeries/model/TimeSeries_LSTM.onnx
+COPY /model/TimeSeries_LSTM.onnx /opt/TimeSeries/model/TimeSeries_LSTM.onnx
+ENV MODEL_PATH=/opt/TimeSeries/model/TimeSeries_LSTM.onnx1
 
 EXPOSE 80
